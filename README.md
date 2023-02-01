@@ -16,10 +16,10 @@ Here are some ideas to get you started:
 -->
 defaults:
   # _posts
-  - scope:
+  - scope: 
       path: ""
       type: posts
-    values:
+    values: hi
       layout: single
       author_profile: true
       read_time: true
