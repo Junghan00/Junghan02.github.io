@@ -1,0 +1,33 @@
+@import 'MEMBERS.css';
+
+/* 배경 이미지 */
+body {
+      background-image:url(https://raw.githubusercontent.com/abdfhg/abdfhg.github.io/main/%EA%B7%B8%EB%A6%BC%EA%B7%B8%EB%A6%BC.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+/* 메뉴바 스타일링 */
+#nav_menu ul {
+              list-style-type:none;                <!-- 표시 . 제거-->
+              padding: left 0px;
+              margin-top: 0px;
+              float:right;
+              }
+
+#nav_menu ul li {
+                 display:inline;
+                 border-left:1px solid #c0c0c0;
+                 padding:0px 10px 0px 10px;           <!-- 위 오 아래 왼 -->
+                 margin:0px 0px 0px 0px;
+                 }
+
+#nav_menu ul li:first-child{
+                            border-left:none;
+                            }
+
+/* a태그 밑줄 제거 */
+a {
+   text-decoration: none;
+   color: brown;
+   }
